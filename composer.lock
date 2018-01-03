@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f2120fa77d42a42b4210cdbe1c114e2",
+    "content-hash": "fd3176d6e1633dbadf54571d6f6abc13",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2435,6 +2435,45 @@
                 "test"
             ],
             "time": "2015-05-11T14:41:42+00:00"
+        },
+        {
+            "name": "kotamat/laravel-apispec-generator",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kotamat/laravel-apispec-generator.git",
+                "reference": "fccf5150c871c9fd6ddeebce16738730cd8b3fd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kotamat/laravel-apispec-generator/zipball/fccf5150c871c9fd6ddeebce16738730cd8b3fd9",
+                "reference": "fccf5150c871c9fd6ddeebce16738730cd8b3fd9",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ApiSpec\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kotamat",
+                    "email": "kota.matsumoto@scouter.co.jp"
+                }
+            ],
+            "description": "RestAPI spec generator with Laravel test",
+            "time": "2018-01-03T12:35:49+00:00"
         },
         {
             "name": "mockery/mockery",

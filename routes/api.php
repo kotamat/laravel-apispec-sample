@@ -13,6 +13,12 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('/test', function (Request $request) {
+    return response(['hoge' => 'huga']);
+});
+Route::post('/test', function (Request $request) {
+    return response($request->all());
+});
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
